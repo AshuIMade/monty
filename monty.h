@@ -11,6 +11,9 @@
 	{"swap", swap},   \
 	{"nop", nop},     \
 	{"add", _add},    \
+	{"div", _div},    \
+	{"mul", _mul},    \
+	{"sub", _sub},    \
 	{                     \
 		NULL, NULL      \
 	}                     \
