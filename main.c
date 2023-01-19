@@ -1,5 +1,4 @@
 #include "monty.h"
-stack_g global_stack = {NULL, 0, NULL, NULL, NULL};
 /**
  * main - main function.
  * @argc: number of command line arguments.
