@@ -40,7 +40,7 @@ typedef struct instruction_s
  * @newnode: pointer to structure end
  * Description: input struct for monty project
  */
-typedef struct stack_i
+typedef struct stack_a
 {
 	char *input_line;
 	int s_number;

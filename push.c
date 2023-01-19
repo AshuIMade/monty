@@ -20,7 +20,7 @@ void push(stack_t **stack, unsigned int line_number)
 		fclose(global_stack.file);
 		exit(EXIT_FAILURE);
 	}
-	new_node->n = global_satck.s_number;
+	new_node->n = global_stack.s_number;
 	if (*stack != NULL)
 		(*stack)->prev = new_node;
 	new_node->prev = NULL;
