@@ -60,6 +60,6 @@ int checkdigitpush(char *tokens, unsigned int line_cnt);
 void getbuffer(char *str, char **tokens);
 void freestack_t(stack_t *head);
 
-void push(stack_t **stack, unsigned int line_cnt);
-void pall(stack_t **stack, unsigned int line_cnt);
+void push(stack_t **stack, unsigned int line_number);
+void pall(stack_t **stack, unsigned int line_number);
 #endif /* MONTY_H */

@@ -2,14 +2,14 @@
 /**
  * push - add node to the stack
  * @stack: new stack
- * @line_cnt: line number
+ * @line_number: line number
  * Return: no return
  */
-void push(stack_t **stack, unsigned int line_cnt)
+void push(stack_t **stack, unsigned int line_number)
 {
 	stack_t *new_node;
 
-	(void)line_cnt;
+	(void)line_number;
 	new_node = malloc(sizeof(stack_t));
 	global_stack.newnode = new_node;
 	if (new_node == NULL)
