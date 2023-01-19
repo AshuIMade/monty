@@ -16,6 +16,9 @@
 	{"sub", _sub},    \
 	{"mod", mod},     \
 	{"pchar", pchar}, \
+	{"pstr", pstr},   \
+	{"rotl", rotl},   \
+	{"rotr", rotr},   \
 	{                     \
 		NULL, NULL      \
 	}                     \
