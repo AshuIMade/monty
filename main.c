@@ -21,6 +21,7 @@ int main(int argc, char **argv)
 	char *str = NULL;
 	stack_t *stack = NULL;
 	unsigned int line_cnt = 1;
+
 	global.data_struct = 1;  /* struct defined in monty.h L58*/
 
 	if (argc != 2)
