@@ -51,6 +51,15 @@ typedef struct stack_i
 
 extern stack_g global_stack;
 
+int getarg(char *argv[]);
+int execute(char *op, stack_t **stack, unsigned int line_cnt);
+
+int checkdigit(char *tokens, unsigned int line_cnt);
+int checkdigitpush(char *tokens, unsigned int line_cnt);
+
+void getbuffer(char *str, char **tokens);
+void freestack_t(stack_t *head);
+
 void push(stack_t **stack, unsigned int line_cnt);
 void pall(stack_t **stack, unsigned int line_cnt);
 #endif /* MONTY_H */
