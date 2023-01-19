@@ -27,6 +27,7 @@ int is_digit(char *string)
 int isnumber(char *str)
 {
 	int i;
+
 	if (!str)
 		return (0);
 	for (i = 0; str[i]; i++)
