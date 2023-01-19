@@ -10,7 +10,7 @@ void push(stack_t **stack, unsigned int line_cnt)
 	stack_t *new_node;
 
 	(void)line_cnt;
-	new_node = malloc(sizeof(stack_i));
+	new_node = malloc(sizeof(stack_t));
 	global_stack.newnode = new_node;
 	if (new_node == NULL)
 	{
