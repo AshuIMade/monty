@@ -14,6 +14,8 @@
 	{"div", _div},    \
 	{"mul", _mul},    \
 	{"sub", _sub},    \
+	{"mod", mod},     \
+	{"pchar", pchar}, \
 	{                     \
 		NULL, NULL      \
 	}                     \
