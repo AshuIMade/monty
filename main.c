@@ -1,4 +1,5 @@
 #include "monty.h"
+
 /**
  * main - main function.
  * @argc: number of command line arguments.
@@ -7,6 +8,8 @@
  */
 int main(int argc, char *argv[])
 {
+	stack_g global_stack = {NULL, 0, NULL, NULL, NULL};
+
 	if (argc != 2)
 	{
 		fprintf(stderr, "USAGE: monty file\n");
