@@ -6,7 +6,11 @@
 {\
 	{"push", push},   \
 	{"pall", pall},   \
+	{"pop",  pop},    \
 	{"pint", pint},   \
+	{"swap", swap},   \
+	{"nop", nop},     \
+	{"add", _add},    \
 	{                     \
 		NULL, NULL      \
 	}                     \
