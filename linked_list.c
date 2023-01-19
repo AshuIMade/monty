@@ -99,7 +99,7 @@ void free_stack(stack_t *stack)
 			free(current);
 			current = next;
 			if (next)
-				exit = next->next;
+				next = next->next;
 		}
 	}
 }

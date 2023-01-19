@@ -4,8 +4,8 @@
 #include <stdlib.h>
 #define INSTRUCTIONS	\
 {\
-	{"push", _push},   \
-	{"pall", _pall},   \
+	{"push", push},   \
+	{"pall", pall},   \
 	{"pint", pint},   \
 	{"pop", pop},     \
 	{"swap", swap},   \
